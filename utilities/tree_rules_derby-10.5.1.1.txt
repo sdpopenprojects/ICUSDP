@@ -1,0 +1,97 @@
+|--- CountLine <= 0.30
+|   |--- MaxCyclomatic <= 2.17
+|   |   |--- COMM <= 1.40
+|   |   |   |--- CountDeclClass <= 7.71
+|   |   |   |   |--- CountStmtDecl <= 1.43
+|   |   |   |   |   |--- Del_lines <= 6.79
+|   |   |   |   |   |   |--- CountOutput_Max <= 1.76
+|   |   |   |   |   |   |   |--- CountLineCode <= 0.47
+|   |   |   |   |   |   |   |   |--- CountDeclMethodPrivate <= 1.81
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- CountDeclMethodPrivate >  1.81
+|   |   |   |   |   |   |   |   |   |--- CountDeclFunction <= 0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |   |   |--- CountDeclFunction >  0.02
+|   |   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- CountLineCode >  0.47
+|   |   |   |   |   |   |   |   |--- CountClassCoupled <= 0.61
+|   |   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |   |--- CountClassCoupled >  0.61
+|   |   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- CountOutput_Max >  1.76
+|   |   |   |   |   |   |   |--- RatioCommentToCode <= -0.48
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- RatioCommentToCode >  -0.48
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Del_lines >  6.79
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountStmtDecl >  1.43
+|   |   |   |   |   |--- DDEV <= 0.61
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- DDEV >  0.61
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- CountDeclClass >  7.71
+|   |   |   |   |--- class: 1
+|   |   |--- COMM >  1.40
+|   |   |   |--- PercentLackOfCohesion <= 0.55
+|   |   |   |   |--- CountDeclFunction <= 0.55
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountDeclFunction >  0.55
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- PercentLackOfCohesion >  0.55
+|   |   |   |   |--- class: 1
+|   |--- MaxCyclomatic >  2.17
+|   |   |--- class: 1
+|--- CountLine >  0.30
+|   |--- SumCyclomatic <= 0.56
+|   |   |--- CountLineCodeDecl <= 0.79
+|   |   |   |--- CountPath_Max <= -0.06
+|   |   |   |   |--- CountDeclMethod <= 1.15
+|   |   |   |   |   |--- CountStmt <= 0.62
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- CountStmt >  0.62
+|   |   |   |   |   |   |--- SumCyclomatic <= 0.30
+|   |   |   |   |   |   |   |--- AvgLineComment <= 3.40
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- AvgLineComment >  3.40
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- SumCyclomatic >  0.30
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountDeclMethod >  1.15
+|   |   |   |   |   |--- CountLine <= 0.43
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- CountLine >  0.43
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- CountPath_Max >  -0.06
+|   |   |   |   |--- CountDeclMethodDefault <= 0.12
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountDeclMethodDefault >  0.12
+|   |   |   |   |   |--- class: 0
+|   |   |--- CountLineCodeDecl >  0.79
+|   |   |   |--- RatioCommentToCode <= -0.65
+|   |   |   |   |--- class: 0
+|   |   |   |--- RatioCommentToCode >  -0.65
+|   |   |   |   |--- CountSemicolon <= -0.23
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountSemicolon >  -0.23
+|   |   |   |   |   |--- class: 1
+|   |--- SumCyclomatic >  0.56
+|   |   |--- CountOutput_Max <= -0.11
+|   |   |   |--- SumCyclomaticModified <= 1.31
+|   |   |   |   |--- class: 0
+|   |   |   |--- SumCyclomaticModified >  1.31
+|   |   |   |   |--- class: 1
+|   |   |--- CountOutput_Max >  -0.11
+|   |   |   |--- CountInput_Min <= 1.13
+|   |   |   |   |--- CountLine <= 0.38
+|   |   |   |   |   |--- CountLine <= 0.37
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- CountLine >  0.37
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountLine >  0.38
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- CountInput_Min >  1.13
+|   |   |   |   |--- MaxCyclomaticStrict <= 1.30
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- MaxCyclomaticStrict >  1.30
+|   |   |   |   |   |--- class: 1

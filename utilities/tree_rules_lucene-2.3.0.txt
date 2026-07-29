@@ -1,0 +1,25 @@
+|--- SumCyclomaticStrict <= 0.52
+|   |--- CountPath_Max <= -0.06
+|   |   |--- CountStmtDecl <= 1.49
+|   |   |   |--- Added_lines <= 1.41
+|   |   |   |   |--- class: 0
+|   |   |   |--- Added_lines >  1.41
+|   |   |   |   |--- CountInput_Mean <= 0.06
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountInput_Mean >  0.06
+|   |   |   |   |   |--- class: 1
+|   |   |--- CountStmtDecl >  1.49
+|   |   |   |--- RatioCommentToCode <= -0.62
+|   |   |   |   |--- class: 0
+|   |   |   |--- RatioCommentToCode >  -0.62
+|   |   |   |   |--- class: 1
+|   |--- CountPath_Max >  -0.06
+|   |   |--- SumCyclomaticStrict <= 0.08
+|   |   |   |--- AvgLineCode <= 1.61
+|   |   |   |   |--- class: 0
+|   |   |   |--- AvgLineCode >  1.61
+|   |   |   |   |--- class: 1
+|   |   |--- SumCyclomaticStrict >  0.08
+|   |   |   |--- class: 1
+|--- SumCyclomaticStrict >  0.52
+|   |--- class: 1

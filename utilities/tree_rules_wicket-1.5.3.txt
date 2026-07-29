@@ -1,0 +1,70 @@
+|--- CountLineCode <= 0.84
+|   |--- CountPath_Mean <= 0.41
+|   |   |--- Del_lines <= 0.86
+|   |   |   |--- CountDeclClassMethod <= 4.47
+|   |   |   |   |--- CountLineCodeExe <= 0.92
+|   |   |   |   |   |--- CountPath_Max <= 0.02
+|   |   |   |   |   |   |--- CountInput_Max <= 3.84
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- CountInput_Max >  3.84
+|   |   |   |   |   |   |   |--- CountStmt <= 0.04
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- CountStmt >  0.04
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- CountPath_Max >  0.02
+|   |   |   |   |   |   |--- CountDeclInstanceMethod <= 0.22
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- CountDeclInstanceMethod >  0.22
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountLineCodeExe >  0.92
+|   |   |   |   |   |--- CountPath_Mean <= -0.12
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- CountPath_Mean >  -0.12
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- CountDeclClassMethod >  4.47
+|   |   |   |   |--- class: 1
+|   |   |--- Del_lines >  0.86
+|   |   |   |--- SumEssential <= 0.04
+|   |   |   |   |--- class: 0
+|   |   |   |--- SumEssential >  0.04
+|   |   |   |   |--- CountOutput_Max <= 0.82
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountOutput_Max >  0.82
+|   |   |   |   |   |--- class: 0
+|   |--- CountPath_Mean >  0.41
+|   |   |--- CountLineCodeExe <= 0.09
+|   |   |   |--- AvgLine <= 1.98
+|   |   |   |   |--- class: 0
+|   |   |   |--- AvgLine >  1.98
+|   |   |   |   |--- class: 1
+|   |   |--- CountLineCodeExe >  0.09
+|   |   |   |--- CountInput_Mean <= 0.80
+|   |   |   |   |--- CountDeclMethodProtected <= 0.47
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountDeclMethodProtected >  0.47
+|   |   |   |   |   |--- CountPath_Max <= 0.31
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- CountPath_Max >  0.31
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- CountInput_Mean >  0.80
+|   |   |   |   |--- class: 0
+|--- CountLineCode >  0.84
+|   |--- SumCyclomatic <= 0.42
+|   |   |--- MaxNesting_Mean <= 0.09
+|   |   |   |--- class: 0
+|   |   |--- MaxNesting_Mean >  0.09
+|   |   |   |--- class: 1
+|   |--- SumCyclomatic >  0.42
+|   |   |--- CountOutput_Mean <= -0.62
+|   |   |   |--- CountDeclMethodProtected <= 1.05
+|   |   |   |   |--- class: 1
+|   |   |   |--- CountDeclMethodProtected >  1.05
+|   |   |   |   |--- class: 0
+|   |   |--- CountOutput_Mean >  -0.62
+|   |   |   |--- CountInput_Max <= -0.21
+|   |   |   |   |--- MAJOR_LINE <= 1.20
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- MAJOR_LINE >  1.20
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- CountInput_Max >  -0.21
+|   |   |   |   |--- class: 1

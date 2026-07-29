@@ -1,0 +1,49 @@
+|--- SumCyclomaticModified <= 0.76
+|   |--- SumEssential <= 0.70
+|   |   |--- CountDeclMethodProtected <= 3.56
+|   |   |   |--- CountInput_Mean <= 13.69
+|   |   |   |   |--- CountStmt <= 1.90
+|   |   |   |   |   |--- CountClassDerived <= 17.45
+|   |   |   |   |   |   |--- CountDeclInstanceMethod <= 1.31
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- CountDeclInstanceMethod >  1.31
+|   |   |   |   |   |   |   |--- CountLineComment <= 0.76
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- CountLineComment >  0.76
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- CountClassDerived >  17.45
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountStmt >  1.90
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- CountInput_Mean >  13.69
+|   |   |   |   |--- class: 1
+|   |   |--- CountDeclMethodProtected >  3.56
+|   |   |   |--- CountDeclMethodPublic <= 0.26
+|   |   |   |   |--- class: 1
+|   |   |   |--- CountDeclMethodPublic >  0.26
+|   |   |   |   |--- class: 0
+|   |--- SumEssential >  0.70
+|   |   |--- Added_lines <= -0.10
+|   |   |   |--- class: 0
+|   |   |--- Added_lines >  -0.10
+|   |   |   |--- class: 1
+|--- SumCyclomaticModified >  0.76
+|   |--- CountLineCodeDecl <= 0.74
+|   |   |--- SumCyclomaticModified <= 1.23
+|   |   |   |--- CountOutput_Mean <= -0.08
+|   |   |   |   |--- MAJOR_LINE <= -0.43
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- MAJOR_LINE >  -0.43
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- CountOutput_Mean >  -0.08
+|   |   |   |   |--- class: 0
+|   |   |--- SumCyclomaticModified >  1.23
+|   |   |   |--- class: 1
+|   |--- CountLineCodeDecl >  0.74
+|   |   |--- SumCyclomaticModified <= 0.84
+|   |   |   |--- CountStmtExe <= 0.49
+|   |   |   |   |--- class: 1
+|   |   |   |--- CountStmtExe >  0.49
+|   |   |   |   |--- class: 0
+|   |   |--- SumCyclomaticModified >  0.84
+|   |   |   |--- class: 1

@@ -1,0 +1,25 @@
+|--- CountStmt <= 0.14
+|   |--- MaxCyclomatic <= 0.15
+|   |   |--- CountDeclClassMethod <= 0.83
+|   |   |   |--- CountClassCoupled <= 0.95
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountClassCoupled >  0.95
+|   |   |   |   |--- class: 1
+|   |   |--- CountDeclClassMethod >  0.83
+|   |   |   |--- CountInput_Mean <= 0.81
+|   |   |   |   |--- class: 1
+|   |   |   |--- CountInput_Mean >  0.81
+|   |   |   |   |--- class: 0
+|   |--- MaxCyclomatic >  0.15
+|   |   |--- SumEssential <= 0.55
+|   |   |   |--- class: 1
+|   |   |--- SumEssential >  0.55
+|   |   |   |--- class: 0
+|--- CountStmt >  0.14
+|   |--- CountStmt <= 0.31
+|   |   |--- MaxNesting_Mean <= 0.03
+|   |   |   |--- class: 0
+|   |   |--- MaxNesting_Mean >  0.03
+|   |   |   |--- class: 1
+|   |--- CountStmt >  0.31
+|   |   |--- class: 1

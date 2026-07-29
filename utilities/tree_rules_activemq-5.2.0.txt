@@ -1,0 +1,55 @@
+|--- MAJOR_COMMIT <= 0.70
+|   |--- CountStmtExe <= 0.39
+|   |   |--- AvgCyclomaticStrict <= 2.85
+|   |   |   |--- CountInput_Max <= 4.62
+|   |   |   |   |--- AvgLineCode <= 2.57
+|   |   |   |   |   |--- CountPath_Min <= 6.01
+|   |   |   |   |   |   |--- CountPath_Mean <= -0.04
+|   |   |   |   |   |   |   |--- CountClassCoupled <= 5.04
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- CountClassCoupled >  5.04
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- CountPath_Mean >  -0.04
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- CountPath_Min >  6.01
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- AvgLineCode >  2.57
+|   |   |   |   |   |--- SumCyclomaticStrict <= -0.10
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- SumCyclomaticStrict >  -0.10
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- CountInput_Max >  4.62
+|   |   |   |   |--- CountPath_Mean <= -0.05
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountPath_Mean >  -0.05
+|   |   |   |   |   |--- class: 1
+|   |   |--- AvgCyclomaticStrict >  2.85
+|   |   |   |--- class: 1
+|   |--- CountStmtExe >  0.39
+|   |   |--- CountOutput_Max <= 1.12
+|   |   |   |--- CountLineCodeExe <= 0.95
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountLineCodeExe >  0.95
+|   |   |   |   |--- CountClassDerived <= 1.97
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountClassDerived >  1.97
+|   |   |   |   |   |--- class: 0
+|   |   |--- CountOutput_Max >  1.12
+|   |   |   |--- RatioCommentToCode <= -0.55
+|   |   |   |   |--- CountOutput_Mean <= -0.41
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountOutput_Mean >  -0.41
+|   |   |   |   |   |--- CountLineCodeExe <= 0.36
+|   |   |   |   |   |   |--- PercentLackOfCohesion <= 0.64
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- PercentLackOfCohesion >  0.64
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- CountLineCodeExe >  0.36
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- RatioCommentToCode >  -0.55
+|   |   |   |   |--- class: 0
+|--- MAJOR_COMMIT >  0.70
+|   |--- RatioCommentToCode <= 0.67
+|   |   |--- class: 1
+|   |--- RatioCommentToCode >  0.67
+|   |   |--- class: 0

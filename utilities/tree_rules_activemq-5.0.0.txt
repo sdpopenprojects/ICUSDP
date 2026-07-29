@@ -1,0 +1,52 @@
+|--- CountLineCode <= 0.35
+|   |--- CountPath_Max <= -0.04
+|   |   |--- CountLineBlank <= 0.95
+|   |   |   |--- COMM <= 0.81
+|   |   |   |   |--- CountDeclMethodProtected <= 2.58
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountDeclMethodProtected >  2.58
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- COMM >  0.81
+|   |   |   |   |--- CountDeclInstanceVariable <= 0.34
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountDeclInstanceVariable >  0.34
+|   |   |   |   |   |--- class: 1
+|   |   |--- CountLineBlank >  0.95
+|   |   |   |--- CountLine <= 0.49
+|   |   |   |   |--- class: 1
+|   |   |   |--- CountLine >  0.49
+|   |   |   |   |--- class: 0
+|   |--- CountPath_Max >  -0.04
+|   |   |--- MAJOR_COMMIT <= 0.61
+|   |   |   |--- MaxCyclomaticModified <= 0.92
+|   |   |   |   |--- CountLineCodeDecl <= 0.31
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountLineCodeDecl >  0.31
+|   |   |   |   |   |--- COMM <= -0.16
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- COMM >  -0.16
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- MaxCyclomaticModified >  0.92
+|   |   |   |   |--- CountOutput_Max <= 0.67
+|   |   |   |   |   |--- CountDeclClassVariable <= -0.09
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- CountDeclClassVariable >  -0.09
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountOutput_Max >  0.67
+|   |   |   |   |   |--- class: 1
+|   |   |--- MAJOR_COMMIT >  0.61
+|   |   |   |--- Added_lines <= 1.57
+|   |   |   |   |--- class: 1
+|   |   |   |--- Added_lines >  1.57
+|   |   |   |   |--- CountOutput_Max <= -0.38
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountOutput_Max >  -0.38
+|   |   |   |   |   |--- class: 1
+|--- CountLineCode >  0.35
+|   |--- SumCyclomaticModified <= -0.00
+|   |   |--- class: 0
+|   |--- SumCyclomaticModified >  -0.00
+|   |   |--- CountInput_Mean <= -1.01
+|   |   |   |--- class: 0
+|   |   |--- CountInput_Mean >  -1.01
+|   |   |   |--- class: 1

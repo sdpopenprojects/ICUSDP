@@ -1,0 +1,97 @@
+|--- MaxCyclomaticStrict <= 0.21
+|   |--- SumCyclomaticModified <= -0.04
+|   |   |--- COMM <= 1.30
+|   |   |   |--- CountClassBase <= 2.59
+|   |   |   |   |--- CountPath_Max <= -0.04
+|   |   |   |   |   |--- Del_lines <= 0.50
+|   |   |   |   |   |   |--- CountInput_Max <= 0.72
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- CountInput_Max >  0.72
+|   |   |   |   |   |   |   |--- SumCyclomatic <= -0.11
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- SumCyclomatic >  -0.11
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Del_lines >  0.50
+|   |   |   |   |   |   |--- CountPath_Mean <= -0.04
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- CountPath_Mean >  -0.04
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountPath_Max >  -0.04
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- CountClassBase >  2.59
+|   |   |   |   |--- MaxCyclomatic <= -0.11
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- MaxCyclomatic >  -0.11
+|   |   |   |   |   |--- class: 1
+|   |   |--- COMM >  1.30
+|   |   |   |--- CountLineCodeDecl <= -0.11
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountLineCodeDecl >  -0.11
+|   |   |   |   |--- class: 1
+|   |--- SumCyclomaticModified >  -0.04
+|   |   |--- MAJOR_LINE <= 0.19
+|   |   |   |--- CountDeclInstanceVariable <= 0.19
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountDeclInstanceVariable >  0.19
+|   |   |   |   |--- class: 1
+|   |   |--- MAJOR_LINE >  0.19
+|   |   |   |--- class: 1
+|--- MaxCyclomaticStrict >  0.21
+|   |--- SumCyclomaticStrict <= -0.09
+|   |   |--- MaxCyclomaticStrict <= 0.62
+|   |   |   |--- MAJOR_LINE <= 0.40
+|   |   |   |   |--- CountClassDerived <= -0.13
+|   |   |   |   |   |--- AvgCyclomaticModified <= 3.65
+|   |   |   |   |   |   |--- Del_lines <= -0.13
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- Del_lines >  -0.13
+|   |   |   |   |   |   |   |--- CountDeclClassVariable <= -0.13
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- CountDeclClassVariable >  -0.13
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- AvgCyclomaticModified >  3.65
+|   |   |   |   |   |   |--- CountLineComment <= -0.25
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- CountLineComment >  -0.25
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountClassDerived >  -0.13
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- MAJOR_LINE >  0.40
+|   |   |   |   |--- CountInput_Mean <= -0.07
+|   |   |   |   |   |--- CountDeclInstanceMethod <= -0.08
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- CountDeclInstanceMethod >  -0.08
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountInput_Mean >  -0.07
+|   |   |   |   |   |--- class: 1
+|   |   |--- MaxCyclomaticStrict >  0.62
+|   |   |   |--- SumEssential <= -0.14
+|   |   |   |   |--- class: 0
+|   |   |   |--- SumEssential >  -0.14
+|   |   |   |   |--- class: 1
+|   |--- SumCyclomaticStrict >  -0.09
+|   |   |--- OWN_LINE <= 0.81
+|   |   |   |--- CountStmt <= -0.10
+|   |   |   |   |--- SumCyclomaticStrict <= -0.08
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- SumCyclomaticStrict >  -0.08
+|   |   |   |   |   |--- class: 0
+|   |   |   |--- CountStmt >  -0.10
+|   |   |   |   |--- CountLine <= -0.08
+|   |   |   |   |   |--- ADEV <= -0.15
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- ADEV >  -0.15
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountLine >  -0.08
+|   |   |   |   |   |--- class: 1
+|   |   |--- OWN_LINE >  0.81
+|   |   |   |--- PercentLackOfCohesion <= 0.92
+|   |   |   |   |--- class: 0
+|   |   |   |--- PercentLackOfCohesion >  0.92
+|   |   |   |   |--- CountLineComment <= -0.27
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountLineComment >  -0.27
+|   |   |   |   |   |--- MaxNesting_Max <= 0.40
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- MaxNesting_Max >  0.40
+|   |   |   |   |   |   |--- class: 1

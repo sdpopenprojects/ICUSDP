@@ -1,0 +1,64 @@
+|--- CountLine <= 0.02
+|   |--- ADEV <= 2.29
+|   |   |--- CountDeclClassVariable <= 1.20
+|   |   |   |--- MAJOR_LINE <= 0.97
+|   |   |   |   |--- CountStmtDecl <= 0.64
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountStmtDecl >  0.64
+|   |   |   |   |   |--- MAJOR_COMMIT <= 0.28
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- MAJOR_COMMIT >  0.28
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- MAJOR_LINE >  0.97
+|   |   |   |   |--- CountDeclMethodPublic <= 0.04
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountDeclMethodPublic >  0.04
+|   |   |   |   |   |--- class: 1
+|   |   |--- CountDeclClassVariable >  1.20
+|   |   |   |--- CountSemicolon <= -0.43
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountSemicolon >  -0.43
+|   |   |   |   |--- class: 1
+|   |--- ADEV >  2.29
+|   |   |--- class: 1
+|--- CountLine >  0.02
+|   |--- CountStmtDecl <= 0.48
+|   |   |--- CountClassCoupled <= -0.20
+|   |   |   |--- CountPath_Mean <= -0.05
+|   |   |   |   |--- MAJOR_LINE <= 1.31
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- MAJOR_LINE >  1.31
+|   |   |   |   |   |--- MAJOR_COMMIT <= -0.68
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- MAJOR_COMMIT >  -0.68
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- CountPath_Mean >  -0.05
+|   |   |   |   |--- class: 1
+|   |   |--- CountClassCoupled >  -0.20
+|   |   |   |--- MAJOR_COMMIT <= 0.28
+|   |   |   |   |--- MaxNesting_Mean <= -0.17
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- MaxNesting_Mean >  -0.17
+|   |   |   |   |   |--- MAJOR_COMMIT <= -0.68
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- MAJOR_COMMIT >  -0.68
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- MAJOR_COMMIT >  0.28
+|   |   |   |   |--- class: 1
+|   |--- CountStmtDecl >  0.48
+|   |   |--- CountLineComment <= -0.41
+|   |   |   |--- class: 0
+|   |   |--- CountLineComment >  -0.41
+|   |   |   |--- SumEssential <= -0.24
+|   |   |   |   |--- class: 0
+|   |   |   |--- SumEssential >  -0.24
+|   |   |   |   |--- CountLineCodeDecl <= 0.32
+|   |   |   |   |   |--- CountOutput_Max <= 0.92
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- CountOutput_Max >  0.92
+|   |   |   |   |   |   |--- AvgLineCode <= -0.03
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- AvgLineCode >  -0.03
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountLineCodeDecl >  0.32
+|   |   |   |   |   |--- class: 1

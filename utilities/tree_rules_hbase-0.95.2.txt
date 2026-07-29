@@ -1,0 +1,106 @@
+|--- MaxCyclomatic <= -0.06
+|   |--- CountClassCoupled <= 0.42
+|   |   |--- CountStmtExe <= -0.03
+|   |   |   |--- MaxCyclomatic <= -0.22
+|   |   |   |   |--- class: 0
+|   |   |   |--- MaxCyclomatic >  -0.22
+|   |   |   |   |--- Del_lines <= -0.09
+|   |   |   |   |   |--- CountLineComment <= -0.35
+|   |   |   |   |   |   |--- CountStmt <= -0.20
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- CountStmt >  -0.20
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- CountLineComment >  -0.35
+|   |   |   |   |   |   |--- CountDeclInstanceVariable <= 0.17
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- CountDeclInstanceVariable >  0.17
+|   |   |   |   |   |   |   |--- DDEV <= -0.03
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- DDEV >  -0.03
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- Del_lines >  -0.09
+|   |   |   |   |   |--- CountDeclClass <= -0.06
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- CountDeclClass >  -0.06
+|   |   |   |   |   |   |--- class: 0
+|   |   |--- CountStmtExe >  -0.03
+|   |   |   |--- CountSemicolon <= 0.04
+|   |   |   |   |--- class: 1
+|   |   |   |--- CountSemicolon >  0.04
+|   |   |   |   |--- class: 0
+|   |--- CountClassCoupled >  0.42
+|   |   |--- AvgCyclomaticStrict <= -0.30
+|   |   |   |--- Del_lines <= -0.07
+|   |   |   |   |--- class: 0
+|   |   |   |--- Del_lines >  -0.07
+|   |   |   |   |--- CountSemicolon <= -0.05
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountSemicolon >  -0.05
+|   |   |   |   |   |--- class: 1
+|   |   |--- AvgCyclomaticStrict >  -0.30
+|   |   |   |--- CountOutput_Mean <= 0.25
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountOutput_Mean >  0.25
+|   |   |   |   |--- class: 1
+|--- MaxCyclomatic >  -0.06
+|   |--- CountOutput_Max <= 0.33
+|   |   |--- OWN_COMMIT <= -1.21
+|   |   |   |--- CountPath_Mean <= -0.04
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountPath_Mean >  -0.04
+|   |   |   |   |--- class: 1
+|   |   |--- OWN_COMMIT >  -1.21
+|   |   |   |--- OWN_LINE <= 0.59
+|   |   |   |   |--- MaxNesting_Mean <= 0.19
+|   |   |   |   |   |--- SumEssential <= -0.09
+|   |   |   |   |   |   |--- CountOutput_Mean <= 0.46
+|   |   |   |   |   |   |   |--- SumCyclomaticStrict <= -0.09
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |   |--- SumCyclomaticStrict >  -0.09
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- CountOutput_Mean >  0.46
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- SumEssential >  -0.09
+|   |   |   |   |   |   |--- CountClassCoupled <= -0.29
+|   |   |   |   |   |   |   |--- MaxNesting_Max <= 0.15
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- MaxNesting_Max >  0.15
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- CountClassCoupled >  -0.29
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- MaxNesting_Mean >  0.19
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- OWN_LINE >  0.59
+|   |   |   |   |--- MaxNesting_Mean <= 0.68
+|   |   |   |   |   |--- CountInput_Mean <= 0.47
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- CountInput_Mean >  0.47
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- MaxNesting_Mean >  0.68
+|   |   |   |   |   |--- AvgLineCode <= 1.18
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- AvgLineCode >  1.18
+|   |   |   |   |   |   |--- class: 0
+|   |--- CountOutput_Max >  0.33
+|   |   |--- MaxCyclomaticStrict <= 0.10
+|   |   |   |--- AvgLine <= 0.40
+|   |   |   |   |--- CountDeclInstanceVariable <= 0.24
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountDeclInstanceVariable >  0.24
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- AvgLine >  0.40
+|   |   |   |   |--- class: 1
+|   |   |--- MaxCyclomaticStrict >  0.10
+|   |   |   |--- CountStmtDecl <= -0.18
+|   |   |   |   |--- DDEV <= -0.58
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- DDEV >  -0.58
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- CountStmtDecl >  -0.18
+|   |   |   |   |--- MaxNesting_Min <= 1.40
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- MaxNesting_Min >  1.40
+|   |   |   |   |   |--- AvgLineCode <= 2.07
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- AvgLineCode >  2.07
+|   |   |   |   |   |   |--- class: 1

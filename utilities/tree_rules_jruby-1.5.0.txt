@@ -1,0 +1,43 @@
+|--- MaxCyclomaticStrict <= -0.02
+|   |--- SumCyclomaticStrict <= 0.23
+|   |   |--- COMM <= 0.91
+|   |   |   |--- CountOutput_Max <= 0.79
+|   |   |   |   |--- CountDeclInstanceVariable <= 0.41
+|   |   |   |   |   |--- Added_lines <= 0.31
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Added_lines >  0.31
+|   |   |   |   |   |   |--- CountStmtExe <= -0.14
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- CountStmtExe >  -0.14
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountDeclInstanceVariable >  0.41
+|   |   |   |   |   |--- PercentLackOfCohesion <= 1.09
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- PercentLackOfCohesion >  1.09
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- CountOutput_Max >  0.79
+|   |   |   |   |--- class: 1
+|   |   |--- COMM >  0.91
+|   |   |   |--- CountOutput_Min <= 0.01
+|   |   |   |   |--- class: 1
+|   |   |   |--- CountOutput_Min >  0.01
+|   |   |   |   |--- class: 0
+|   |--- SumCyclomaticStrict >  0.23
+|   |   |--- ADEV <= -0.15
+|   |   |   |--- class: 0
+|   |   |--- ADEV >  -0.15
+|   |   |   |--- class: 1
+|--- MaxCyclomaticStrict >  -0.02
+|   |--- CountSemicolon <= -0.16
+|   |   |--- AvgCyclomaticStrict <= 1.98
+|   |   |   |--- class: 0
+|   |   |--- AvgCyclomaticStrict >  1.98
+|   |   |   |--- class: 1
+|   |--- CountSemicolon >  -0.16
+|   |   |--- ADEV <= -0.36
+|   |   |   |--- MaxInheritanceTree <= 1.25
+|   |   |   |   |--- class: 1
+|   |   |   |--- MaxInheritanceTree >  1.25
+|   |   |   |   |--- class: 0
+|   |   |--- ADEV >  -0.36
+|   |   |   |--- class: 1

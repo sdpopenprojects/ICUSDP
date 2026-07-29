@@ -1,0 +1,64 @@
+|--- SumCyclomaticStrict <= -0.10
+|   |--- COMM <= 0.79
+|   |   |--- SumCyclomaticStrict <= -0.14
+|   |   |   |--- CountDeclClass <= 0.10
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountDeclClass >  0.10
+|   |   |   |   |--- COMM <= 0.05
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- COMM >  0.05
+|   |   |   |   |   |--- class: 1
+|   |   |--- SumCyclomaticStrict >  -0.14
+|   |   |   |--- MaxCyclomaticModified <= 0.24
+|   |   |   |   |--- Del_lines <= -0.14
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- Del_lines >  -0.14
+|   |   |   |   |   |--- CountOutput_Min <= -0.41
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- CountOutput_Min >  -0.41
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- MaxCyclomaticModified >  0.24
+|   |   |   |   |--- SumCyclomatic <= -0.11
+|   |   |   |   |   |--- class: 1
+|   |   |   |   |--- SumCyclomatic >  -0.11
+|   |   |   |   |   |--- class: 0
+|   |--- COMM >  0.79
+|   |   |--- SumEssential <= -0.15
+|   |   |   |--- class: 1
+|   |   |--- SumEssential >  -0.15
+|   |   |   |--- class: 0
+|--- SumCyclomaticStrict >  -0.10
+|   |--- MaxCyclomatic <= 0.04
+|   |   |--- CountDeclClassMethod <= -0.11
+|   |   |   |--- CountLineCode <= 0.02
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountLineCode >  0.02
+|   |   |   |   |--- class: 1
+|   |   |--- CountDeclClassMethod >  -0.11
+|   |   |   |--- MaxCyclomatic <= -0.34
+|   |   |   |   |--- class: 0
+|   |   |   |--- MaxCyclomatic >  -0.34
+|   |   |   |   |--- CountStmtDecl <= -0.10
+|   |   |   |   |   |--- OWN_COMMIT <= -1.08
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- OWN_COMMIT >  -1.08
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountStmtDecl >  -0.10
+|   |   |   |   |   |--- class: 1
+|   |--- MaxCyclomatic >  0.04
+|   |   |--- CountOutput_Mean <= -0.68
+|   |   |   |--- class: 0
+|   |   |--- CountOutput_Mean >  -0.68
+|   |   |   |--- MaxNesting_Max <= -0.31
+|   |   |   |   |--- CountOutput_Max <= -0.28
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountOutput_Max >  -0.28
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- MaxNesting_Max >  -0.31
+|   |   |   |   |--- MaxNesting_Max <= 0.27
+|   |   |   |   |   |--- Del_lines <= -0.29
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Del_lines >  -0.29
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- MaxNesting_Max >  0.27
+|   |   |   |   |   |--- class: 1

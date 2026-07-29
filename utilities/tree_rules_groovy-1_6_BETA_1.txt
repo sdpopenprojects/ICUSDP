@@ -1,0 +1,34 @@
+|--- CountLineCode <= 0.52
+|   |--- AvgLine <= 1.94
+|   |   |--- MAJOR_LINE <= 1.80
+|   |   |   |--- SumEssential <= 0.46
+|   |   |   |   |--- CountClassCoupled <= 1.99
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountClassCoupled >  1.99
+|   |   |   |   |   |--- SumEssential <= 0.14
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- SumEssential >  0.14
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |--- SumEssential >  0.46
+|   |   |   |   |--- class: 1
+|   |   |--- MAJOR_LINE >  1.80
+|   |   |   |--- CountStmt <= -0.14
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountStmt >  -0.14
+|   |   |   |   |--- class: 1
+|   |--- AvgLine >  1.94
+|   |   |--- CountStmtExe <= 0.16
+|   |   |   |--- CountClassCoupled <= 1.50
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountClassCoupled >  1.50
+|   |   |   |   |--- class: 1
+|   |   |--- CountStmtExe >  0.16
+|   |   |   |--- class: 1
+|--- CountLineCode >  0.52
+|   |--- SumCyclomatic <= -0.08
+|   |   |--- OWN_LINE <= 0.77
+|   |   |   |--- class: 1
+|   |   |--- OWN_LINE >  0.77
+|   |   |   |--- class: 0
+|   |--- SumCyclomatic >  -0.08
+|   |   |--- class: 1

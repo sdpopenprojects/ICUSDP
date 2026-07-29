@@ -1,0 +1,88 @@
+|--- CountLineCode <= 0.13
+|   |--- MaxCyclomaticStrict <= 0.79
+|   |   |--- SumCyclomatic <= -0.06
+|   |   |   |--- CountInput_Max <= 3.62
+|   |   |   |   |--- MaxNesting_Mean <= 3.28
+|   |   |   |   |   |--- CountPath_Max <= -0.05
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- CountPath_Max >  -0.05
+|   |   |   |   |   |   |--- CountLineCodeDecl <= 0.12
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- CountLineCodeDecl >  0.12
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- MaxNesting_Mean >  3.28
+|   |   |   |   |   |--- PercentLackOfCohesion <= -0.17
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- PercentLackOfCohesion >  -0.17
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- CountInput_Max >  3.62
+|   |   |   |   |--- CountClassCoupled <= -0.56
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountClassCoupled >  -0.56
+|   |   |   |   |   |--- class: 1
+|   |   |--- SumCyclomatic >  -0.06
+|   |   |   |--- Added_lines <= -0.19
+|   |   |   |   |--- CountClassDerived <= 0.76
+|   |   |   |   |   |--- CountInput_Mean <= 2.29
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- CountInput_Mean >  2.29
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountClassDerived >  0.76
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- Added_lines >  -0.19
+|   |   |   |   |--- CountLineBlank <= 0.30
+|   |   |   |   |   |--- Del_lines <= 0.99
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- Del_lines >  0.99
+|   |   |   |   |   |   |--- CountLineComment <= -0.48
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |--- CountLineComment >  -0.48
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountLineBlank >  0.30
+|   |   |   |   |   |--- class: 0
+|   |--- MaxCyclomaticStrict >  0.79
+|   |   |--- CountInput_Mean <= 0.07
+|   |   |   |--- CountDeclMethodPrivate <= 0.17
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountDeclMethodPrivate >  0.17
+|   |   |   |   |--- class: 1
+|   |   |--- CountInput_Mean >  0.07
+|   |   |   |--- class: 1
+|--- CountLineCode >  0.13
+|   |--- SumCyclomatic <= -0.06
+|   |   |--- CountDeclFunction <= -0.29
+|   |   |   |--- class: 1
+|   |   |--- CountDeclFunction >  -0.29
+|   |   |   |--- RatioCommentToCode <= -0.84
+|   |   |   |   |--- class: 1
+|   |   |   |--- RatioCommentToCode >  -0.84
+|   |   |   |   |--- class: 0
+|   |--- SumCyclomatic >  -0.06
+|   |   |--- CountStmtExe <= -0.05
+|   |   |   |--- CountLineCodeDecl <= 0.67
+|   |   |   |   |--- class: 0
+|   |   |   |--- CountLineCodeDecl >  0.67
+|   |   |   |   |--- class: 1
+|   |   |--- CountStmtExe >  -0.05
+|   |   |   |--- CountLineCode <= 0.17
+|   |   |   |   |--- AvgLineComment <= -0.44
+|   |   |   |   |   |--- AvgCyclomatic <= 0.99
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- AvgCyclomatic >  0.99
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- AvgLineComment >  -0.44
+|   |   |   |   |   |--- class: 1
+|   |   |   |--- CountLineCode >  0.17
+|   |   |   |   |--- SumCyclomatic <= -0.02
+|   |   |   |   |   |--- Added_lines <= -0.23
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Added_lines >  -0.23
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- SumCyclomatic >  -0.02
+|   |   |   |   |   |--- AvgLineComment <= 2.00
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |--- AvgLineComment >  2.00
+|   |   |   |   |   |   |--- MaxCyclomaticStrict <= 0.30
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- MaxCyclomaticStrict >  0.30
+|   |   |   |   |   |   |   |--- class: 1

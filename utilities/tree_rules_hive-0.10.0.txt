@@ -1,0 +1,52 @@
+|--- SumCyclomaticModified <= -0.01
+|   |--- MAJOR_COMMIT <= 1.17
+|   |   |--- CountOutput_Max <= 0.94
+|   |   |   |--- AvgCyclomatic <= 3.82
+|   |   |   |   |--- CountInput_Max <= 3.16
+|   |   |   |   |   |--- Del_lines <= 0.15
+|   |   |   |   |   |   |--- CountDeclMethod <= 0.69
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- CountDeclMethod >  0.69
+|   |   |   |   |   |   |   |--- SumCyclomatic <= -0.07
+|   |   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |   |   |   |--- SumCyclomatic >  -0.07
+|   |   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- Del_lines >  0.15
+|   |   |   |   |   |   |--- CountDeclFunction <= -0.17
+|   |   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |   |--- CountDeclFunction >  -0.17
+|   |   |   |   |   |   |   |--- class: 1
+|   |   |   |   |--- CountInput_Max >  3.16
+|   |   |   |   |   |--- OWN_LINE <= -1.04
+|   |   |   |   |   |   |--- class: 0
+|   |   |   |   |   |--- OWN_LINE >  -1.04
+|   |   |   |   |   |   |--- class: 1
+|   |   |   |--- AvgCyclomatic >  3.82
+|   |   |   |   |--- class: 1
+|   |   |--- CountOutput_Max >  0.94
+|   |   |   |--- AvgLineCode <= 1.37
+|   |   |   |   |--- class: 1
+|   |   |   |--- AvgLineCode >  1.37
+|   |   |   |   |--- CountPath_Min <= 5.23
+|   |   |   |   |   |--- class: 0
+|   |   |   |   |--- CountPath_Min >  5.23
+|   |   |   |   |   |--- class: 1
+|   |--- MAJOR_COMMIT >  1.17
+|   |   |--- CountLine <= -0.17
+|   |   |   |--- class: 0
+|   |   |--- CountLine >  -0.17
+|   |   |   |--- class: 1
+|--- SumCyclomaticModified >  -0.01
+|   |--- Added_lines <= -0.15
+|   |   |--- CountPath_Mean <= -0.07
+|   |   |   |--- class: 0
+|   |   |--- CountPath_Mean >  -0.07
+|   |   |   |--- SumCyclomaticModified <= 0.05
+|   |   |   |   |--- class: 0
+|   |   |   |--- SumCyclomaticModified >  0.05
+|   |   |   |   |--- class: 1
+|   |--- Added_lines >  -0.15
+|   |   |--- CountStmtDecl <= -0.10
+|   |   |   |--- class: 0
+|   |   |--- CountStmtDecl >  -0.10
+|   |   |   |--- class: 1
