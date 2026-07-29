@@ -1,0 +1,16 @@
+,Importance
+COMM,0.073021874
+DDEV,0.053903617
+Del_lines,0.039081898
+Added_lines,0.034755852
+CountOutput_Max,0.024344262
+CountClassDerived,0.021574486
+CountDeclClassVariable,0.020649593
+CountLineCode,0.020079484
+CountClassCoupled,0.01951331
+CountLine,0.0177085
+MaxInheritanceTree,0.017248591
+CountInput_Min,0.01723617
+SumCyclomatic,0.017153079
+MAJOR_LINE,0.016901873
+CountDeclMethodPrivate,0.016771464
