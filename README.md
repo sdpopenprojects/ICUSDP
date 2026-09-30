@@ -17,7 +17,7 @@ This directory contains the following files:
 * test: Main scripts and entry points to run the experiments.
 * utilities: a file folder contains some utility functions
 * result_ICUSDP: Contains all experimental results of our proposed ICUSDP framework.
-* result_baseline: Contains all experimental results of both supervised and unsupervised baseline methods，The MUSDP results are collected from the original paper Unsupervised Software Defect Prediction through Multi-view Clustering.
+* result_baseline: Contains all experimental results of both supervised and unsupervised baseline methods.
 * visual：Contains all visualization results. 
 * supplementary: Contains comprehensive data tables for overall performance comparison.
  
@@ -25,7 +25,7 @@ This directory contains the following files:
 
 # Usage
 
-Please run demo_INTC.py to obtain the prediction resutls of our approaches.
+Please run demo_INTC_FS.py to obtain the prediction resutls of our approaches.
 
 
 
