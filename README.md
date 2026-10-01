@@ -12,8 +12,8 @@ This code is an implementation of the paper, which is described in:
 # Project Structure
 
 This directory contains the following files:
-* algorihtms: Contains the core implementation of our ICUSDP framework and baseline methods.
-* data: Contains the datasets used in our experiments, including 28 versions of JIRA projects with software metrics.
+* algorithms: Contains the core implementation of our ICUSDP framework and baseline methods.
+* data: Contains the datasets used in our experiments, including 28 releases from JIRA projects with software metrics.
 * test: Main scripts and entry points to run the experiments.
 * utilities: a file folder contains some utility functions
 * result_ICUSDP: Contains all experimental results of our proposed ICUSDP framework.
@@ -42,9 +42,6 @@ Our framework is developed and tested under the following environment:
 
 
 # NOTE
-
-The software is free for academic use only, and shall not be used,
-rewritten, or adapted as the basis of a commercial product without first obtaining permission from the authors.
 
 The authors make no representations about the suitability of this software for any purpose. 
 It is provided "as is" without express or implied warranty.
